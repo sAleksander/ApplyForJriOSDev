@@ -13,14 +13,18 @@ Edit your local copy of this **markdown** and describe yourself in few sentences
 
 
 ### 3. Task
-Write a program which _lists_, _sums_ and _multiplies_ first _n_ fibonacci numbers. Where _n_ is given by user. 
+- Write a program which _lists_, _sums_ and _multiplies_ first `n` fibonacci numbers with offset `m` (how many numbers should be dropped). Where `n` and `m` is given by user. 
 
-Pick your preferred language. 
+- For example:
+ - Input `n=3` and `m=3`. Output `[3,5,8]` 
+ - Input `n=3` and `m=0`. Output `[1,1,2]`
+ - Input `n=6` and `m=0`. Output `[1,1,2,3,5,8]`
 
+- Pick your preferred language. 
 
-Add source code to this repository. 
+- Add source code to this repository. 
 
-Push changes.
+- Push changes.
 
 ### 4. Task
 Make a pull request!
