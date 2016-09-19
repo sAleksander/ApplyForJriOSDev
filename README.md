@@ -8,8 +8,10 @@ _Fork_ this repository
 ### 2. Task
 Edit your local copy of this **markdown** and describe yourself in few sentences and fill skill-test below:
 
-- [x] I know what's `git` `push`/`commit`/`pull` 
-- [x] I know `Swift`/`Objective-C`
+- [ ] I know what's `git` `push`/`commit`/`pull` 
+- [ ] I know `Swift`/`Objective-C`
+- [ ] I've got OS X on my machine
+- [ ] I've got device with iOS
 
 
 ### 3. Task
