@@ -13,14 +13,14 @@ Edit your local copy of this **markdown** and describe yourself in few sentences
 
 
 ### 3. Task
-- Write a program which _lists_, _sums_ and _multiplies_ first `n` fibonacci numbers with offset `m` (how many numbers should be dropped). Where `n` and `m` is given by user. 
+- Write a program which _lists_ and _sums_ first `n` fibonacci numbers with offset `m` (how many numbers should be dropped). Where `n` and `m` is given by user on standard input.
 
 - For example:
- - Input `n=3` and `m=3`. Output `[3,5,8]` 
- - Input `n=3` and `m=0`. Output `[1,1,2]`
- - Input `n=6` and `m=0`. Output `[1,1,2,3,5,8]`
+ - Input `n=3` and `m=3`. Output `List: [3,5,8], Sum: 16` 
+ - Input `n=3` and `m=0`. Output `List: [1,1,2], Sum: 4`
+ - Input `n=6` and `m=0`. Output `List: [1,1,2,3,5,8], Sum: 20`
 
-- Pick your preferred language. 
+- Pick your language of choice. _Ideally Swift/Objective-C_
 
 - Add source code to this repository. 
 
