@@ -1,32 +1,60 @@
-# Hey!
+Hello
 
-####Hope you came here to apply for iOS Junior Developer Position.
+My name is Aleksander and Im from poland. Im a self learning programmer who knows c++/c# and Im eager to learn different programming languages. I dont have troubles with using english but if its possible I would prefer to work in polish.
 
-### 1. Task
-_Fork_ this repository
+- [x] I know `Swift`/`Objective-C`
 
-### 2. Task
-Edit your local copy of this **markdown** and describe yourself in few sentences and fill skill-test below:
+Im most comfortable with c++, but learning different language makes no problem for me. 
 
-- [ ] I know what's `git` `push`/`commit`/`pull` 
-- [ ] I know `Swift`/`Objective-C`
-- [ ] I've got OS X on my machine
-- [ ] I've got device with iOS
+Source code:
+
+#include <iostream>
+#include <iomanip>
+
+using namespace std;
+
+int main()
+{
+long double a=1,b=1,c=1,x,y;
+cout<<setprecision(10000);
+cout<<"Type amount of fibonacci numers you want to display : ";
+cin>>x;
+cout<<endl<<"Type how many you want to skip : ";
+cin>>y;
+cout<<" "<<endl;
+    for(int i=0;i<x;i++)
+    {
+    b=a;
+    a=c;
+    c=a+b;
+
+        if(i>=y)
+        {
+        cout<<c<<endl;
+        }
+    }
+
+    if(x<=y)
+    {
+    cout<<endl<<endl<<"0";
+    }
+
+    else if(x==y+1)
+    {
+    cout<<endl<<endl<<c;
+    }
+
+    else if(x==y+2)
+    {
+    cout<<endl<<endl<<c+a;
+    }
+
+    else
+    {
+    cout<<endl<<endl<<a+b+c;
+    }
+
+return 0;
+}
 
 
-### 3. Task
-- Write a program which _lists_ and _sums_ first `n` fibonacci numbers with offset `m` (how many numbers should be dropped). Where `n` and `m` is given by user on standard input.
-
-- For example:
- - Input `n=3` and `m=3`. Output `List: [3,5,8], Sum: 16` 
- - Input `n=3` and `m=0`. Output `List: [1,1,2], Sum: 4`
- - Input `n=6` and `m=0`. Output `List: [1,1,2,3,5,8], Sum: 20`
-
-- Pick your language of choice. _Ideally Swift/Objective-C_
-
-- Add source code to this repository. 
-
-- Push changes.
-
-### 4. Task
-Make a pull request!
